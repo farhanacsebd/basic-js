@@ -32,3 +32,13 @@ console.log(list);
 // console.log(listIndex);
 
 
+
+if((myJob== true && myflat==false) || mybudget > 500000){
+    console.log("they give him");
+}
+
+else {
+    console.log("they will kill you");
+}
+
+
