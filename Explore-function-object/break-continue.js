@@ -34,12 +34,25 @@ var array=[43,5,22,55,77,752,245,756,1223,867,11,33];
 
 for (var i=0;i<array.length;i++){
 
-    var num=array[i]
-   console.log(num);
+    var num=array[i];
+  
+     console.log(num);
 
-   if(num>100){
-    break;
-   }
+        if(num<100){
+          break;
+        }
 
 
+}
+
+
+
+
+
+for (var i = 0; i <10; i++){
+    console.log(i);
+
+    if(i==5){
+        continue;
+    }
 }
