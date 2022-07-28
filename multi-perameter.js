@@ -1,14 +1,26 @@
-function numbers(num1,num2){
-    
-    console.log(num1,num2);
+// 
 
-    var plustotal=num1+num2;
+function numbers(num2,num4){
+    // console.log(numbers);
+
+    // var plusNum1 = num1 + num2;
     
-    console.log(plustotal);
-    
+    var plusNum2 = num2 * num4;
+
+    console.log(plusNum2);
+
     return 0;
-
 }
-var first=5;
-var second=4;
-var reslt= numbers(first,second)
+
+var first=4;
+
+var scand = 15;
+
+var third = 3;
+
+var fourth =6;
+
+// var plus = numbers(first,scand);
+var plus = numbers(scand,fourth);
+
+// console.log(plus);
