@@ -22,3 +22,25 @@ switch(fruts){
     default:
         console.log('this is another fruts');    
     }
+
+
+
+    var color='Red';
+
+    switch(color){
+        case 'Blue':
+            console.log("Boys likes this color");
+
+            break;
+
+        case 'Yellow':
+            console.log('Nice color');
+
+            break;
+
+        case 'Gray':
+            console.log('Nice one');
+
+        default:
+            console.log('No color match');
+    }
