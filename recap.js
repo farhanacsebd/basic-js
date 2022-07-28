@@ -7,8 +7,20 @@ var numbers=list.indexOf(21);
 list[3] = 65;
 
 list.push(43);
+list.push(422);
 
 list.pop();
+
+
+list.shift();
+
+
+
+list.unshift(77);
+list.unshift(774);
+
+
+
 
 console.log(list);
 
@@ -18,3 +30,5 @@ console.log(list);
 // var listIndex=listName.indexOf("nimki");
 
 // console.log(listIndex);
+
+
