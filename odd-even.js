@@ -16,7 +16,7 @@
 
 
 function isOdd(oddNumber){
-    if ((oddNumber % 2 != 0) ){
+    if ((oddNumber % 2 != 0) && oddNumber % 2 == 1 ){
 
         return true;
 
