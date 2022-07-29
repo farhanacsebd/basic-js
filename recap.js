@@ -1,44 +1,38 @@
-var list=[21,46,87,09,38,58,12,3,09,79,22]
+let list=[21,46,87,09,38,58,12,3,09,79,22]
 
-// number=array.length;
+// let numberofList=list.length;
 
-var numbers=list.indexOf(21);
+let numberofList=list.indexOf(87);
 
-list[3] = 65;
-
-list.push(43);
-list.push(422);
+list[5]=666;
 
 list.pop();
+
+list.push(534);
 
 
 list.shift();
 
+list.unshift();
 
 
-list.unshift(77);
-list.unshift(774);
-
-
+// console.log(numberofList);
 
 
 console.log(list);
 
 
-// var listName=["putul","kuttush","nimki","laltush","piyo"]
-
-// var listIndex=listName.indexOf("nimki");
-
-// console.log(listIndex);
-
-
-
-if((myJob== true && myflat==false) || mybudget > 500000){
-    console.log("they give him");
+if(list < 8){
+    console.log("array lenth is to much");
 }
 
-else {
-    console.log("they will kill you");
+else{
+    console.log("added some valus");
 }
 
+var atlist=1;
 
+while(atlist<10){
+    console.log(atlist);
+    atlist++;
+}
