@@ -11,7 +11,7 @@ console.log(factorial);
 
 var fact =1;
 for (var i=1;i<=7;i++){
-   var fact =fact * 1;
+   var fact =fact * i;
 }
 
 console.log(fact);
