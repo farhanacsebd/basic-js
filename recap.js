@@ -19,20 +19,45 @@ list.unshift();
 // console.log(numberofList);
 
 
-console.log(list);
+// console.log(list);
 
 
-if(list < 8){
-    console.log("array lenth is to much");
+// if(list < 8){
+//     console.log("array lenth is to much");
+// }
+
+// else{
+//     console.log("added some valus");
+// }
+
+// var atlist=5;
+
+// while(atlist<=100){
+//     console.log(atlist);
+//     atlist=atlist+5;
+// }
+
+
+// for(var a = 1; a <=100; a+=5){
+//     console.log(a);
+// }
+
+
+// for (var a = 5; a<=50; a+=5){
+//     console.log(a);}
+
+
+function numbers(num1,num2){
+    console.log('its run');
+
+    let total=num1+num2;
+    
+    return total;
 }
 
-else{
-    console.log("added some valus");
-}
+let fistnum =20;
+let secondnum=4;
 
-var atlist=1;
+let equations=numbers(fistnum,secondnum)
 
-while(atlist<10){
-    console.log(atlist);
-    atlist++;
-}
+console.log(equations);
