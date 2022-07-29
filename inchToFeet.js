@@ -22,12 +22,33 @@ function mileToKelometer(kelometer){
 
    let mile = kelometer/1000;
 
-     console.log(mile);
+     console.log('total miles',mile);
 
      return 0;
 
 } 
 
     let totalkelo = 2000000;
-    
+
     let mile=mileToKelometer(totalkelo)
+
+
+
+    // kg to gram
+
+
+
+   function KgTogram(gram){
+
+    let kg = gram/1000;
+
+    console.log("Total kg",kg);
+
+    return 0;
+
+   } 
+
+
+    let meterTotal = 300000;
+    
+    KgTogram(meterTotal)
