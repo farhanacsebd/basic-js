@@ -68,11 +68,38 @@ let resultIs=numbers(10,20,30)
 
 
 
-  function fahrenheitToCelcius(fahrenheit){
-        celciusIss=fahrenheit % 33.8;
-        return celciusIss;
-  }
 
-        let fahrenheitToday =1013.9;
-        let weather=fahrenheitToCelcius(fahrenheitToday);
-        console.log('today weath is ',weather);
+//   function fahrenheitToCelcius(fahrenheit){
+//         celciusIss=fahrenheit % 33.8;
+//         return celciusIss;
+//   }
+
+//         let fahrenheitToday =1013.9;
+//         let weather=fahrenheitToCelcius(fahrenheitToday);
+//         console.log('today weath is ',weather);
+
+
+
+function AcademicReuslt(result){
+    if(resut>=100){
+        console.log("Wow,Great You get A+");
+    }
+    else if(result>=79){
+        console.log("That is A");
+    }
+    else if(result>=69){
+        console.log("That is A-");
+    }
+    else if(result>=59){
+        console.log("That is B+");
+    }
+
+    else{
+        console.log("fail");
+    }
+    console.log(result);
+    return 0;
+}
+
+    theresult=AcademicReuslt(77)
+    // console.log(theresult);
