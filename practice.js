@@ -81,25 +81,28 @@ let resultIs=numbers(10,20,30)
 
 
 function AcademicReuslt(result){
-    if(resut>=100){
+    if(result>=80 && result<=100){
         console.log("Wow,Great You get A+");
     }
-    else if(result>=79){
+    else if(result>=70 && result<=79){
         console.log("That is A");
     }
-    else if(result>=69){
+    else if(result>=60 && result<=69){
         console.log("That is A-");
     }
-    else if(result>=59){
+    else if(result>=55 && result<=59){
         console.log("That is B+");
+    }
+    else if(result>=45 && result<=54){
+        console.log("That is B-");
     }
 
     else{
         console.log("fail");
     }
-    console.log(result);
-    return 0;
+    // console.log(result);
+    return AcademicReuslt;
 }
 
-    theresult=AcademicReuslt(77)
-    // console.log(theresult);
+    theresult=AcademicReuslt(66)
+    console.log(theresult);
