@@ -26,6 +26,20 @@ for(var i=51;i<=80;i+=2){
 
 var i=51;
 while(i<=80){
-    console.log(i);
+    // console.log(i);
     i+=2
 }
+
+
+function numbers(num1,num2,num3){
+    let valueIs =num1+num2+num3;
+    return valueIs;
+}
+
+let fist=10;
+let secend=20;
+let third=30;
+
+let resultIs=numbers(10,20,30)
+
+console.log(resultIs);
