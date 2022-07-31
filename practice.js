@@ -111,79 +111,79 @@ let resultIs=numbers(10,20,30)
 
 // even odd function
 
-function oddNumber(number){
-    if (number%2==0){
+// function oddNumber(number){
+//     if (number%2==0){
        
-        return true;
+//         return true;
 
-    }
-      return false;
-}
+//     }
+//       return false;
+// }
 
-    var theamount =331;
+//     var theamount =331;
 
-    var callthefunction=oddNumber(theamount)
+//     var callthefunction=oddNumber(theamount)
 
-    // console.log(callthefunction);
+//     // console.log(callthefunction);
 
-function theNumber(num1){
-    if(num1%2!=0){
-        return true;
-    }
+// function theNumber(num1){
+//     if(num1%2!=0){
+//         return true;
+//     }
     
-    return false;
+//     return false;
 
-}
+// }
 
-var myNumber= 320;
-var theNumberis=theNumber(myNumber);
+// var myNumber= 320;
+// var theNumberis=theNumber(myNumber);
 
 // console.log(theNumberis);
 
 
 
 
-function thisNumber(num2){
-    if(num2 % 2 == 1){
-        return true;
-    }
+// function thisNumber(num2){
+//     if(num2 % 2 == 1){
+//         return true;
+//     }
 
-    return false;
-}
+//     return false;
+// }
 
-var numbersIs=thisNumber(444);
-// console.log(numbersIs);
-
-
-function thatsNumber(num){
-    if (num %2 !==1){
-        return true;
-    }
-
-    return false;
-}
-
-var thisNumberIs=thatsNumber(332);
-// console.log(thisNumberIs);
+// var numbersIs=thisNumber(444);
+// // console.log(numbersIs);
 
 
+// function thatsNumber(num){
+//     if (num %2 !==1){
+//         return true;
+//     }
+
+//     return false;
+// }
+
+// var thisNumberIs=thatsNumber(332);
+// // console.log(thisNumberIs);
 
 
-// leap year
 
 
-function leapYear(year){
-    if ((year  % 4 ==0 && year % 100 !=0) || year% 400 ==0){
+// // leap year
+
+
+// function leapYear(year){
+//     if ((year  % 4 ==0 && year % 100 !=0) || year% 400 ==0){
         
-       return true;
+//        return true;
 
-    }
+//     }
 
-    return false;
-}
+//     return false;
+// }
 
-    var theYear = 2000;
-    var thisYear = leapYear(theYear);
+//     var theYear = 2000;
+//     var thisYear = leapYear(theYear);
     // console.log(thisYear);
 
 
@@ -207,15 +207,41 @@ function leapYear(year){
  
   while(i<=5){
         factorial=factorial*i;
-        // console.log(factorial);
+      
         i++;
     }
 
+     // console.log(factorial);
+   
+   
     var factorial = 1;
-  for(var i=1;i<=5;i++){
+  
+  
+    for(var i=1;i<=5;i++){
    
     factorial=factorial*i;
-    console.log(factorial);
+    
   }
+//   console.log(factorial);
+
+
+
+function fact(number){
+    let fact = 1;
+    let a = 1;
+    while(a<=number){
+        fact=fact*a;
+        a++;
+    }
+    return fact;
+}
+
+var getFact =7;
+var myNumber=fact(getFact);
+console.log(myNumber);
+
+
+
+  
 
 
