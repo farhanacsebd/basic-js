@@ -164,4 +164,35 @@ function thatsNumber(num){
 }
 
 var thisNumberIs=thatsNumber(332);
-console.log(thisNumberIs);
+// console.log(thisNumberIs);
+
+
+
+
+// leap year
+
+
+function leapYear(year){
+    if ((year  % 4 ==0 && year % 100 !=0) || year% 400 ==0){
+        
+       return true;
+
+    }
+
+    return false;
+}
+
+    var theYear = 2000;
+    var thisYear = leapYear(theYear);
+    console.log(thisYear);
+
+
+
+
+
+    // (year % 4 ==0) && (year % 100 !=0) || (year % 400 ==0)
+
+    // (year % 4 == 0) && (year % 100 !=0) || (year % 400 ==0)
+
+
+
