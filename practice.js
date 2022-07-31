@@ -80,29 +80,62 @@ let resultIs=numbers(10,20,30)
 
 
 
-function AcademicReuslt(result){
-    if(result>=80 && result<=100){
-        console.log("Wow,Great You get A+");
-    }
-    else if(result>=70 && result<=79){
-        console.log("That is A");
-    }
-    else if(result>=60 && result<=69){
-        console.log("That is A-");
-    }
-    else if(result>=55 && result<=59){
-        console.log("That is B+");
-    }
-    else if(result>=45 && result<=54){
-        console.log("That is B-");
-    }
+// function AcademicReuslt(result){
+//     if(result>=80 && result<=100){
+//         console.log("Wow,Great You get A+");
+//     }
+//     else if(result>=70 && result<=79){
+//         console.log("That is A");
+//     }
+//     else if(result>=60 && result<=69){
+//         console.log("That is A-");
+//     }
+//     else if(result>=55 && result<=59){
+//         console.log("That is B+");
+//     }
+//     else if(result>=45 && result<=54){
+//         console.log("That is B-");
+//     }
 
-    else{
-        console.log("fail");
+//     else{
+//         console.log("fail");
+//     }
+//     // console.log(result);
+//     return AcademicReuslt;
+// }
+
+//     theresult=AcademicReuslt(66)
+    // console.log(theresult);
+
+
+
+// even odd function
+
+function oddNumber(number){
+    if (number%2==0){
+       
+        return true;
+
     }
-    // console.log(result);
-    return AcademicReuslt;
+      return false;
 }
 
-    theresult=AcademicReuslt(66)
-    console.log(theresult);
+    var theamount =331;
+
+    var callthefunction=oddNumber(theamount)
+
+    // console.log(callthefunction);
+
+function theNumber(num1){
+    if(num1%2!=0){
+        return true;
+    }
+    
+    return false;
+
+}
+
+var myNumber= 320;
+var theNumberis=theNumber(myNumber);
+
+console.log(theNumberis);
