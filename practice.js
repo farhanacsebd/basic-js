@@ -138,4 +138,30 @@ function theNumber(num1){
 var myNumber= 320;
 var theNumberis=theNumber(myNumber);
 
-console.log(theNumberis);
+// console.log(theNumberis);
+
+
+
+
+function thisNumber(num2){
+    if(num2 % 2 == 1){
+        return true;
+    }
+
+    return false;
+}
+
+var numbersIs=thisNumber(444);
+// console.log(numbersIs);
+
+
+function thatsNumber(num){
+    if (num %2 !==1){
+        return true;
+    }
+
+    return false;
+}
+
+var thisNumberIs=thatsNumber(332);
+console.log(thisNumberIs);
