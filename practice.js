@@ -184,7 +184,7 @@ function leapYear(year){
 
     var theYear = 2000;
     var thisYear = leapYear(theYear);
-    console.log(thisYear);
+    // console.log(thisYear);
 
 
 
@@ -194,5 +194,28 @@ function leapYear(year){
 
     // (year % 4 == 0) && (year % 100 !=0) || (year % 400 ==0)
 
+
+
+
+
+    // factorial
+
+  var factorial = 1;
+
+  var i=1;
+ 
+ 
+  while(i<=5){
+        factorial=factorial*i;
+        // console.log(factorial);
+        i++;
+    }
+
+    var factorial = 1;
+  for(var i=1;i<=5;i++){
+   
+    factorial=factorial*i;
+    console.log(factorial);
+  }
 
 
