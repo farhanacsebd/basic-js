@@ -200,48 +200,112 @@ let resultIs=numbers(10,20,30)
 
     // factorial
 
-  var factorial = 1;
+//   var factorial = 1;
 
-  var i=1;
+//   var i=1;
  
  
-  while(i<=5){
-        factorial=factorial*i;
+//   while(i<=5){
+//         factorial=factorial*i;
       
-        i++;
-    }
+//         i++;
+//     }
 
-     // console.log(factorial);
+//      // console.log(factorial);
    
    
-    var factorial = 1;
+//     var factorial = 1;
   
   
-    for(var i=1;i<=5;i++){
+//     for(var i=1;i<=5;i++){
    
-    factorial=factorial*i;
+//     factorial=factorial*i;
     
-  }
+//   }
 //   console.log(factorial);
 
 
 
-function fact(number){
-    let fact = 1;
-    let a = 1;
-    while(a<=number){
-        fact=fact*a;
-        a++;
+// function fact(number){
+//     let fact = 1;
+//     let a = 1;
+//     while(a<=number){
+//         fact=fact*a;
+//         a++;
+//     }
+//     return fact;
+// }
+
+// var getFact =7;
+// var myNumber=fact(getFact);
+// console.log(myNumber);
+
+
+
+
+
+// function factorial(num){
+
+//     var factorial =1;
+
+//     for(var i=1; i<=num; i++){
+//         factorial = factorial * i;
+//     }
+//     return factorial;
+// }
+
+
+//     var numValu = 10;
+//     var theNumber = factorial(numValu);
+//     console.log(theNumber);
+
+
+// function factorial(number){
+//     let factorial = 1;
+//     let i = 1;
+//     while(i<=number){
+//         factorial = factorial * i;
+//         i++;
+//     }
+//     return factorial;
+// }
+
+// let getNumber = 7;
+// let theNumberis = factorial(getNumber);
+// console.log("valu is",theNumberis);
+
+
+
+
+// function factorial(num){
+//     factorial =num;
+//     for(let i = num; i>=1 ;i--){
+//         factorial = factorial * i;
+//     }
+//     return factorial;
+// }
+
+
+// let getNumber =7;
+// let thevalue=factorial(getNumber);
+// console.log(thevalue);
+
+
+
+
+function fact(num){
+    let fact = num;
+    let i=num;
+    while(i>=1){
+        fact = fact * i;
+        i--;
     }
     return fact;
 }
 
-var getFact =7;
-var myNumber=fact(getFact);
-console.log(myNumber);
-
-
-
+    let myNumber=5;
+    let theNumber= fact(myNumber);
+    console.log(theNumber);
   
 
 
