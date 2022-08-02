@@ -11,17 +11,17 @@ const floor =Math.floor(myNumber);
 
 const herNumber =43.43;
 const ans =Math.ceil(myNumber);
-console.log(ans);
+// console.log(ans);
 
 
 const hisNumber = 64.454;
 const thatIs = Math.round(hisNumber);
-console.log(thatIs);
+// console.log(thatIs);
 
 
 const theNumber =32.343;
 const thatans=Math.random(theNumber)*10;
-console.log(thatans);
+// console.log(thatans);
 
 
 
@@ -36,4 +36,18 @@ function leapyear(year){
 }
 
 
-console.log((leapyear(2200)));
+// console.log((leapyear(2200)));
+
+
+
+function thisnumber(num1,num2){
+    if(num1 % 2 == 0){
+        return true;
+    }
+
+    return false;
+}
+
+ const value=31;
+ var thevalue=thisnumber(value);
+ console.log(thevalue);
