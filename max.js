@@ -1,8 +1,8 @@
 var first = 234;
-var secend = 311;
+var second = 311;
 var third = 444;
 
-// var max=Math.max(first,secend,third);
+// var max=Math.max(first,second,third);
 // console.log(max);
 
 function lagerNumber(num1,num2,num3){

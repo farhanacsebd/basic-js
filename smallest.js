@@ -1,31 +1,61 @@
 var first = 234;
-var secend = 11;
+var second = 11;
 var third = 433;
 
 
-var small=Math.min(first,secend,third);
+var small=Math.min(first,second,third);
 // console.log(small);
 
 
 // var first = 234;
-// var secend = 311;
+// var second = 311;
 // var third = 444;
 
-// var max=Math.max(first,secend,third);
+// var max=Math.max(first,second,third);
 // console.log(max);
 
 
-function smallestNumber(first,secend,third){
-    if((first<secend) && (first<third)){
+// function smallestNumber(first,second,third){
+//     if((first<second) && (first<third)){
+//         return first;
+//     }
+//     else if ((second<first) && (second<third)){
+//         return second;
+//     }
+//     else{
+//         return third;
+//     }
+// }
+
+// var smallest = smallestNumber(11,553,234)
+// console.log(smallest);
+
+
+
+
+function smallestNumber(first,second,third,fourth){
+
+    if((first<second) && (first<third) && (first<fourth)){
+
         return first;
+
     }
-    else if ((secend<first) && (secend<third)){
-        return secend;
+
+    else if((second<first) && (second<third) && (second<fourth)){
+        
+        return second;
+
     }
-    else{
+
+    else if((third<first) && (third<second) && (third<fourth)){
+
         return third;
+
     }
+
+    else fourth;
+
 }
 
-var smallest = smallestNumber(11,553,234)
-console.log(smallest);
+
+    console.log((smallestNumber(44,65,675,234))); 
