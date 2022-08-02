@@ -93,3 +93,16 @@ function thisnumberIs(num1,num2){
  const valueIs=300;
  var theValueIs=thisnumberIs(valueIs);
  console.log(theValueIs);
+
+
+
+
+
+
+
+ var first = 234;
+var second = 311;
+var third = 444;
+
+ var larger=Math.max(first,second,third)
+ console.log(larger);
