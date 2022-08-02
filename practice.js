@@ -51,3 +51,32 @@ function thisnumber(num1,num2){
  const value=31;
  var thevalue=thisnumber(value);
  console.log(thevalue);
+
+
+
+
+function thisIsnumber(num1,num2){
+    if(num1 % 2 != 0){
+        return true;
+    }
+
+    return false;
+}
+
+ const isvalue=31;
+ var theisvalue=thisIsnumber(isvalue);
+ console.log(theisvalue);
+
+
+
+function thisisnumber(num1,num2){
+    if(num1 % 2 != 1){
+        return true;
+    }
+
+    return false;
+}
+
+ const isValue=31;
+ var theisValue=thisisnumber(isValue);
+ console.log(theisValue);
