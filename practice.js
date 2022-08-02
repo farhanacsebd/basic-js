@@ -80,3 +80,16 @@ function thisisnumber(num1,num2){
  const isValue=31;
  var theisValue=thisisnumber(isValue);
  console.log(theisValue);
+
+
+function thisnumberIs(num1,num2){
+    if(num1 % 2 == 1){
+        return true;
+    }
+
+    return false;
+}
+
+ const valueIs=300;
+ var theValueIs=thisnumberIs(valueIs);
+ console.log(theValueIs);
