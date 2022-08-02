@@ -106,3 +106,8 @@ var third = 444;
 
  var larger=Math.max(first,second,third)
  console.log(larger);
+
+
+ 
+ var smaller=Math.min(first,second,third)
+ console.log(smaller);
