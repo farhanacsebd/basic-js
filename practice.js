@@ -17,3 +17,8 @@ console.log(ans);
 const hisNumber = 64.454;
 const thatIs = Math.round(hisNumber);
 console.log(thatIs);
+
+
+const theNumber =32.343;
+const thatans=Math.random(theNumber)*10;
+console.log(thatans);
