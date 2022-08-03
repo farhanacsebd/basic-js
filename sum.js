@@ -31,27 +31,52 @@
 
 
 
- let number =[1,2,4,32,64,67,89,99,43,22,2];
-    let sum=0;
-for(let i=0;i<number.length;i++){
-    // console.log(i);
-    let element=number[i];
-    sum = sum+element;
-    console.log(sum);
-}
+    //  let number =[1,2,4,32,64,67,89,99,43,22,2];
+    //     let sum=0;
+    // for(let i=0;i<number.length;i++){
+    //     // console.log(i);
+    //     let element=number[i];
+    //     sum = sum+element;
+    //     // console.log(sum);
+    // }
 
 
 
-function arr(numbers){
+    // function arr(numbers){
 
-    let sum=0;
+    //     let sum=0;
 
-    for(let i=0;i<numbers.length;i++){
-        let elements=numbers[i];
-        sum=sum + elements;
-    }
-    return sum;
-}
+    //     for(let i=0;i<numbers.length;i++){
+    //         let elements=numbers[i];
+    //         sum=sum + elements;
+    //     }
+    //     return sum;
+    // }
 
 // console.log(arr([1,2,4,32,64,67,89,99,43,22,2]));
 
+
+
+
+
+
+
+
+function numberIs(number){
+    let sum = 0;
+    let i=0;
+    while(i < number.length){
+        element = number[i];
+        // console.log(element);
+        sum = sum + element;
+       
+        i++;
+    }
+
+    return sum;
+}
+
+
+let largeNUmber = [1,2,4,32,64,67,89,99,43,22,2];
+let total = numberIs(largeNUmber);
+console.log(total);
