@@ -19,10 +19,13 @@ console.log(resultceil);
 
 
 // Math.random
-
-
-
 // Math.round
+const randomIs = 54.23;
+const resultRandom = Math.random(randomIs)*100;
+const rounded =Math.round(resultRandom);
+console.log(rounded);
+
+
 
 
 
