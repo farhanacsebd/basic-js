@@ -57,3 +57,17 @@ for(let i=0 ;i<numbers.length; i++){
     sum =sum + element;
     console.log(sum);
 }
+
+
+
+
+function sumarray(number){
+    sum = 0;
+for(let i=0 ;i<number.length; i++){
+    element = number[i];
+    sum =sum + element;
+    console.log(sum);
+}
+}
+
+sumarray([33,56,87,93,04,67,22,19])
