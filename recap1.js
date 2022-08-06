@@ -213,7 +213,7 @@ for(let i=1;i<numberisThe;i++){
 }
 
 let getfactorial=8;
-console.log(factorial(getfactorial));
+// console.log(factorial(getfactorial));
 
 
 
@@ -236,6 +236,42 @@ function getTheFactorial(numberBig){
 
 
     let myFactorial=getTheFactorial(10);
-    console.log(myFactorial);
+    // console.log(myFactorial);
 
+
+// factorial decrementing loop
+
+function theFactorial(myNumber){
+    let factIs = 1;
+    for(let i=myNumber; i>=1; i--){
+
+        factIs = factIs * i;
+
+    }
+    return factIs;
+}
+
+
+    let getFact = theFactorial(8);
+    // console.log(getFact);
+
+
+function factorialIs(theNumber){
+    
+   let theFact = 1 ;
+
+   let i = theNumber;
+
+   while(i>=1){
+
+    theFact = theFact * i;
+
+    i--;
+
+   }
+   return theFact;   
+}
+
+    let theFactIs = factorialIs(8);
+    console.log(theFactIs);
 
