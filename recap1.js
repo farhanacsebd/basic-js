@@ -94,33 +94,51 @@ function inchtofeet(inches){
     // console.log(inchtofeet(inchesIs));
 
 
+// nested condition
 
 
+// let barger  = 550;
+// let pizza = 980;
 
-let barger  = 550;
-let pizza = 980;
+// mybudget = 1000;
 
-mybudget = 1000;
+// let haizine = false;
 
-let haizine = false;
-
-if(mybudget > pizza){
-    if(haizine==true){
-        console.log("I can buy this food");
-    }
-    else{
-        console.log("I can't to buy this.");
-    }
-}
+// if(mybudget > pizza){
+//     if(haizine==true){
+//         console.log("I can buy this food");
+//     }
+//     else{
+//         console.log("I can't to buy this.");
+//     }
+// }
 
 
 
 // for loop
 
 
-let number=[12,64,77,88,95,32,08,66,79,82,38,21];
+// let number=[122,64,77,88,95,32,08,66,79,82,38,21];
 
-for(let i=0;i<number.length;i++){
-   let element=number[i];
-    console.log(element);
+// for(let i=0;i<number.length;i++){
+//    let element=number[i];
+//     // console.log(element);
+
+//     if(number > 90){
+//         break;
+//     }
+//     // console.log(element);
+// }
+
+
+function isEven(number){
+    if(number % 2 == 0){
+        return true;
+    }
+    else{
+        return false;
 }
+    }
+
+let numbers=120;
+console.log(isEven(numbers));
