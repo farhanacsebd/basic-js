@@ -181,28 +181,39 @@ function myNumber(thenumber){
 
 
 
-let factorial =1;
-for(let i=1;i<7;i++){
-    factorial = factorial * i;
-}
-    console.log(factorial);
+// let factorial =1;
+// for(let i=1;i<7;i++){
+//     factorial = factorial * i;
+// }
+//     console.log(factorial);
 
 
 // Factorial number while loop
 
 
-let fact =1;
-let i=1;
-while(i<7){
+// let fact =1;
+// let i=1;
+// while(i<7){
+//     fact = fact * i;
+//     i++;
+// }
+//     console.log(fact);
+
+
+
+
+// Factorial number function
+
+function factorial(numberisThe){
+    let fact =1;
+for(let i=1;i<numberisThe;i++){
     fact = fact * i;
-    i++;
 }
-    console.log(fact);
+   return factorial;
+}
 
-
-
-
-
+let getfactorial=8;
+console.log(getfactorial);
 
 
 
