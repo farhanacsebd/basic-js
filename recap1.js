@@ -202,7 +202,7 @@ function myNumber(thenumber){
 
 
 
-// Factorial number function
+// Factorial number function for loop 
 
 function factorial(numberisThe){
     let fact =1;
@@ -215,5 +215,27 @@ for(let i=1;i<numberisThe;i++){
 let getfactorial=8;
 console.log(factorial(getfactorial));
 
+
+
+// Factorial number function while loop 
+
+function getTheFactorial(numberBig){
+    
+    factorial = 1;
+
+    let i=1;
+
+    while(i<numberBig){
+
+        factorial = factorial * i;
+       
+        i++;
+    }
+    return factorial;
+}
+
+
+    let myFactorial=getTheFactorial(10);
+    console.log(myFactorial);
 
 
