@@ -39,4 +39,30 @@ console.log(arr);
 console.log(arrlistItem);
 
 
+function result(marks){
+    if(marks>=80 && marks<=100){
+        console.log('Congratulations,You got A+');
+    }
+    else if(marks>=70 && marks<=79){
+        console.log('You got A');
+    }
+    else if(marks>=60 && marks<=69){
+        console.log('Your got A-');
+    }
+    else if(marks>=55 && marks<=59){
+        console.log('Your got B+');
+    }
+    else if(marks>=50 && marks<=54){
+        console.log('Your got B-');
+    }
+    else {
+        console.log('You are fail');
+    }
+   
+}
+
+
+let marksIs=77;
+totalmarks=result(marksIs);
+
 
