@@ -209,11 +209,11 @@ function factorial(numberisThe){
 for(let i=1;i<numberisThe;i++){
     fact = fact * i;
 }
-   return factorial;
+   return fact;
 }
 
 let getfactorial=8;
-console.log(getfactorial);
+console.log(factorial(getfactorial));
 
 
 
