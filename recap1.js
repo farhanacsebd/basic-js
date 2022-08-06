@@ -131,6 +131,10 @@ function inchtofeet(inches){
 // }
 
 
+
+
+// EVEN OR ODD NUMBERS
+
 function isEven(number){
     if(number % 2 == 0){
         return true;
@@ -141,4 +145,40 @@ function isEven(number){
     }
 
 let numbers=120;
-console.log(isEven(numbers));
+// console.log(isEven(numbers));
+
+
+
+
+function isOdd(numberIs){
+    if(numberIs % 2 ==1){
+     return true;    
+    }
+    else{
+        return false;
+    }
+}
+ let theOddNumber = 1221;
+//  console.log(isOdd(theOddNumber));
+
+
+
+
+function myNumber(thenumber){
+    if(thenumber % 2 != 0){
+     return true;    
+    }
+    else{
+        return false;
+    }
+}
+ let theNumberIs = 1221;
+ console.log(myNumber(theNumberIs));
+
+
+
+
+
+
+
+
