@@ -380,5 +380,20 @@ function sumNumber(number){
     return sum;
 }
 
-let getSumNumber =sumNumber([11,22,55,74,75,99,101,35,89,33]);
-console.log(getSumNumber);
+let getSumNumber =sumNumber(numberIs);
+// console.log(getSumNumber);
+
+
+
+// fibonacchi
+
+function fibo(number){
+    let fibonacchi =[0,1];
+    for(let i =2;i<number;i++){
+        fibonacchi[i] = fibonacchi[i-1] + fibonacchi[i-2];
+    }
+    return fibonacchi;
+}
+
+ let fiboIs = fibo(10);
+ console.log(fiboIs);

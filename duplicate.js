@@ -15,3 +15,5 @@ function removeDuplicate(name){
 }
 
 console.log(removeDuplicate(name));
+
+
