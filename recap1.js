@@ -352,4 +352,19 @@ function largestNumber(number){
 
 
 let getLargestNumber = largestNumber([11,22,55,74,75,99,101,35,89,33]);
-console.log(getLargestNumber);
+// console.log(getLargestNumber);
+
+
+function smallestNumber(number){
+    let min = number[0];
+    for(let i=0;i<number.length;i++){
+        let elementIs = number[i];
+        if(elementIs<min){
+            min=elementIs;
+        }
+    }
+    return min;
+}
+
+let getSmallestNumber = smallestNumber([11,22,55,74,75,99,101,35,89,33]);
+console.log(getSmallestNumber);
