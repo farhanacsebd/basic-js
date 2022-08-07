@@ -35,8 +35,8 @@ arr.unshift(45);
 
 let arrlistItem = arr.pop();
 
-console.log(arr);
-console.log(arrlistItem);
+// console.log(arr);
+// console.log(arrlistItem);
 
 
 // function result(marks){
@@ -315,12 +315,41 @@ let numberIs=[11,22,55,74,75,99,101,35,89,33]
 // }
 
 
-let i = 0;
-while(i<numberIs.length){
-    elementIs = numberIs[i];
-    if(elementIs>80){
-        continue;
+// let i = 0;
+// while(i<numberIs.length){
+//     elementIs = numberIs[i];
+//     if(elementIs>80){
+//         continue;
+//     }
+//     console.log(elementIs);
+//     i++;
+// }
+
+
+
+// min max value
+
+/* const a =345;
+const b =243;
+const c =660;
+const max = Math.max(a,b,c);
+const min = Math.min(a,b,c);
+console.log(max,min);
+console.log(min); */
+
+
+function largestNumber(number){
+    let max = number[0];
+    for(let i=0;i<number.length;i++){
+        element = number[i];
+        if(element > max){
+            max = element;
+        }
+       
     }
-    console.log(elementIs);
-    i++;
+    return max;
 }
+
+
+let getLargestNumber = largestNumber([11,22,55,74,75,99,101,35,89,33]);
+console.log(getLargestNumber);
