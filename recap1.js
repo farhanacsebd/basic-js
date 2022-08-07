@@ -273,5 +273,33 @@ function factorialIs(theNumber){
 }
 
     let theFactIs = factorialIs(8);
-    console.log(theFactIs);
+    // console.log(theFactIs);
 
+
+
+
+
+// Brake or Continue 
+
+// let i = 1;
+// while(i<10){
+//     console.log(i);
+//     if(i==5){
+//         break;
+//     }
+//     i++;
+// }
+
+
+let numberIs=[11,22,55,74,75,99,101,35,89,33]
+
+let a =0;
+while(a<numberIs.length){
+     let elementIs=numberIs[a];
+    console.log(elementIs);
+
+    if(elementIs>100){
+        break;
+    }
+    a++;
+}
