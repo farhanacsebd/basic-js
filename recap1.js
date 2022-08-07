@@ -367,4 +367,18 @@ function smallestNumber(number){
 }
 
 let getSmallestNumber = smallestNumber([11,22,55,74,75,99,101,35,89,33]);
-console.log(getSmallestNumber);
+// console.log(getSmallestNumber);
+
+
+
+function sumNumber(number){
+    let sum = 0;
+    for(let i = 0; i<number.length; i++){
+       let element = number[i];
+        sum =sum + element;
+    }
+    return sum;
+}
+
+let getSumNumber =sumNumber([11,22,55,74,75,99,101,35,89,33]);
+console.log(getSumNumber);
