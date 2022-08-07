@@ -396,14 +396,14 @@ function fibo(number){
 }
 
  let fiboIs = fibo(10);
- console.log(fiboIs);
+//  console.log(fiboIs);
 
 
 
 //  foo,bar,foobar
 
 
-for(let i =1;i<=50;i++){
+/* for(let i =1;i<=50;i++){
     if(i % 3 ==0 && i % 5 == 0){
         console.log('foobar');
     }
@@ -416,4 +416,28 @@ for(let i =1;i<=50;i++){
     else{
         console.log(i);
     }
+} */
+
+
+
+// remove duplicate
+
+let names = ['abul','babul','sabul','dabul','jabul','gabul','abul','babul','sabul','dabul','jabul'];
+
+function duplicate(names){
+    
+    unique = [];
+    
+    for(element of names){
+
+            console.log(element);
+            
+       if(unique.indexOf(element)==-1){
+        unique.push(element);
+       }
+    }
+    return unique;
 }
+
+let uniqueNames = duplicate(names)
+console.log(uniqueNames);
