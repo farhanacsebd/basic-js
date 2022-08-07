@@ -293,13 +293,34 @@ function factorialIs(theNumber){
 
 let numberIs=[11,22,55,74,75,99,101,35,89,33]
 
-let a =0;
-while(a<numberIs.length){
-     let elementIs=numberIs[a];
-    console.log(elementIs);
+// let a =0;
+// while(a<numberIs.length){
+//      let elementIs=numberIs[a];
+//     console.log(elementIs);
 
-    if(elementIs>100){
-        break;
+//     if(elementIs>100){
+//         break;
+//     }
+//     a++;
+// }
+
+
+
+// for(let a = 0;a<numberIs.length;a++){
+//     let elementIs = numberIs[a];
+//     if(elementIs > 90){
+//         continue;
+//     }
+//     console.log(elementIs);
+// }
+
+
+let i = 0;
+while(i<numberIs.length){
+    elementIs = numberIs[i];
+    if(elementIs>80){
+        continue;
     }
-    a++;
+    console.log(elementIs);
+    i++;
 }
