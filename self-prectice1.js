@@ -46,8 +46,33 @@ else{
 
 
 
-let i=7;
-while(i<=19){
-    console.log(i);
-    i++;
-}
+// let i=7;
+// while(i<=19){
+//     console.log(i);
+//     i++;
+// }
+
+
+
+
+// Array
+
+
+let arr =[32,13,566,67,51,37,99,22,57,21,88,100,95];
+
+let arrIs = arr.length;
+
+console.log(arrIs);
+console.log(arr.indexOf(32));
+
+arr[3]=55;
+console.log(arr);
+
+arr.push(43);
+arr.push(04);
+arr.pop()
+arr.shift()
+arr.unshift(23)
+arr.unshift(53)
+
+// console.log(arr);
