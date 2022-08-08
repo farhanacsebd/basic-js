@@ -60,7 +60,7 @@ else{
 
 let arr =[32,13,566,67,51,37,99,22,57,21,88,100,95];
 
-let arrIs = arr.length;
+/* let arrIs = arr.length;
 
 console.log(arrIs);
 console.log(arr.indexOf(32));
@@ -73,6 +73,15 @@ arr.push(04);
 arr.pop()
 arr.shift()
 arr.unshift(23)
-arr.unshift(53)
+arr.unshift(53) */
 
 // console.log(arr);
+
+
+for(let i=0;i<arr.length;i++){
+    element = arr[i];
+    // console.log(element);
+}
+for(element of arr){
+    console.log(element);
+}
