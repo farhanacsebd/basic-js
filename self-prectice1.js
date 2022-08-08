@@ -77,11 +77,29 @@ arr.unshift(53) */
 
 // console.log(arr);
 
-
+// let max =arr[0];
+// for(let i=0;i<arr.length;i++){
+//     element = arr[i];
+//     // console.log(element);
+//     if(element>max){
+//         element==max;
+       
+//     }
+     
+// }
+let max =arr[0];
 for(let i=0;i<arr.length;i++){
     element = arr[i];
     // console.log(element);
+    if(element>max){
+        element==max;
+       
+    }
+     
 }
-for(element of arr){
-    console.log(element);
-}
+
+console.log(max);
+// for(element of arr){
+  
+   
+// }
