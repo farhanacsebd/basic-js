@@ -32,7 +32,7 @@ const buttonPhnPrice = 100;
 
 const myBudget = 22000;
 
-if(myBudget>=phnPrice && myBudget>=laptopPrice){
+/* if(myBudget>=phnPrice && myBudget>=laptopPrice){
     console.log("U take both of these...");
 }
 else if(myBudget>=laptopPrice || myBudget>=phnPrice){
@@ -40,4 +40,14 @@ else if(myBudget>=laptopPrice || myBudget>=phnPrice){
 }
 else{
     console.log('buy only buttonphone');
+}
+ */
+
+
+
+
+let i=7;
+while(i<=19){
+    console.log(i);
+    i++;
 }
