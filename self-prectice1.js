@@ -77,20 +77,27 @@ arr.unshift(53) */
 
 // console.log(arr);
 
-// let max =arr[0];
-// for(let i=0;i<arr.length;i++){
-//     element = arr[i];
-//     // console.log(element);
-//     if(element>max){
-//         element==max;
-       
-//     }
-     
-// }
 
 
 
-for(let i=0;i<arr.length;i++){
+
+
+console.log(arr);
+var max =arr[0];
+for(var i=0;i<arr.length;i++){   
+    var element = arr[i];
+    // console.log(element);
+    if(element>max){
+        max=element;
+        console.log('max is large',max);
+       }  
+}
+
+
+
+// Find large number of an Arry
+
+/* for(let i=0;i<arr.length;i++){
     element = arr[i];
     
     if(element<80){
@@ -98,7 +105,7 @@ for(let i=0;i<arr.length;i++){
     }
     console.log(element);
 }
-
+ */
 
 // for(element of arr){
   
