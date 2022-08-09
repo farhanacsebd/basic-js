@@ -169,4 +169,59 @@ function centimeterToMeter(centimeter){
 }
 
     let centimeterIs = 2000;
-    console.log(centimeterToMeter(centimeterIs));
+    // console.log(centimeterToMeter(centimeterIs));
+
+
+    function paperRequirements(firstBook,secondBook,thirdbook){
+        
+        let firstBookPages = 100;
+        let secondBookPages = 200;
+        let thirdbookPages = 300;
+        let totalBookPages  = firstBook * firstBookPages + secondBook * secondBookPages + thirdbook * thirdbookPages;
+
+        return totalBookPages;
+    }
+
+    // console.log(paperRequirements(1,2,1));
+
+
+/* function bestFriend(friendNames){
+    let max = friendNames[0];
+   for(let i=0;i<friendNames.length;i++){
+    let element = friendNames[i];
+    // console.log(element);
+    if(element.length > max.length){
+      
+      console.log(element);
+    }
+   }
+   
+}
+console.log(bestFriend(['nim','Farhana','binte','THasan'])); */
+
+
+// let namesIs ="Farhana";
+// console.log(namesIs.length);
+
+
+
+
+arrayIS=[22,44,55,-12,-33,-144,53,90,85];
+
+let max =0;
+let min =-1;
+for(let i=0; i<arrayIS.length; i++){
+    let element =arrayIS[i];
+    if(element > max){
+        console.log("The max number is -",element);
+    }
+    else if(element < min){
+        console.log("The min number is -",element);
+    }
+}
+
+/* 
+ for(let i=0; i<10; i++){
+    
+     console.log(i);
+} */
