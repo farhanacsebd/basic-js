@@ -185,19 +185,21 @@ function centimeterToMeter(centimeter){
     // console.log(paperRequirements(1,2,1));
 
 
-/* function bestFriend(friendNames){
+function bestFriend(friendNames){
+
     let max = friendNames[0];
+     
    for(let i=0;i<friendNames.length;i++){
     let element = friendNames[i];
     // console.log(element);
     if(element.length > max.length){
-      
-      console.log(element);
+        max=element;
     }
    }
-   
+   return max;
 }
-console.log(bestFriend(['nim','Farhana','binte','THasan'])); */
+// bestFriend(['nim','Farhana','binte','THasan'])
+console.log(bestFriend(['nim','Farhana','binte','THasan','Tazakistan']));
 
 
 // let namesIs ="Farhana";
@@ -206,9 +208,9 @@ console.log(bestFriend(['nim','Farhana','binte','THasan'])); */
 
 
 
-arrayIS=[22,44,55,-12,-33,-144,53,90,85];
+arrayIS=[22,44,55,47,79,-12,-33,-144,53,90,85];
 
-let max =0;
+/* let max =0;
 let min =-1;
 for(let i=0; i<arrayIS.length; i++){
     let element =arrayIS[i];
@@ -218,10 +220,25 @@ for(let i=0; i<arrayIS.length; i++){
     else if(element < min){
         console.log("The min number is -",element);
     }
-}
+} */
+
+
+
+
 
 /* 
- for(let i=0; i<10; i++){
-    
-     console.log(i);
-} */
+function thePositiveNumber(arrayIS){
+
+    let positiveValue=[];
+    let positoveIs=0;
+    for(let i=0;i<arrayIS.length;i++){
+        element  = arrayIS[i];
+        
+       if(positiveValue.indexOf(element)==positoveIs){
+        positiveValue.push(element);
+        
+       }
+    }
+    return positiveValue;
+}
+console.log(thePositiveNumber(arrayIS)); */
