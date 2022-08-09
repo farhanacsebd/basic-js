@@ -82,8 +82,8 @@ arr.unshift(53) */
 
 
 
-/* console.log(arr);
-var max =arr[0];
+// console.log(arr);
+/* var max =80;
 for(var i=0;i<arr.length;i++){   
     var element = arr[i];
     // console.log(element);
@@ -91,8 +91,8 @@ for(var i=0;i<arr.length;i++){
         max=element;
         console.log('max is large',max);
        }  
-}
- */
+} */
+
 
 
 // Find large number of an Arry
@@ -107,10 +107,23 @@ for(var i=0;i<arr.length;i++){
 }
  */
 
-// for(element of arr){
-  
-   
-// }
+/* let max =80;
+for(element of arr){
+
+     if(element>80){
+        max=element;
+        console.log(max);
+     }
+    
+} */
+// console.log(max);
+
+
+
+
+
+
+
 
 /* function multiplyNumber(num1,num2,num3){
     
@@ -131,4 +144,29 @@ let shoppingCart ={
 }
 
 shoppingCart.headPhonePrice=2000;
-console.log(shoppingCart);
+// console.log(shoppingCart);
+
+
+
+
+// Feet To Inch
+function feetToInch(feet){
+    let inch = feet * 12;
+    
+    return inch;
+}
+
+    let feetIs = 20;
+    // console.log(feetToInch(feetIs));
+
+
+
+
+function centimeterToMeter(centimeter){
+    let meter = centimeter * 100;
+    
+    return meter;
+}
+
+    let centimeterIs = 2000;
+    console.log(centimeterToMeter(centimeterIs));
