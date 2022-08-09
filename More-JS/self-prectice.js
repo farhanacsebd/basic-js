@@ -82,7 +82,7 @@ arr.unshift(53) */
 
 
 
-console.log(arr);
+/* console.log(arr);
 var max =arr[0];
 for(var i=0;i<arr.length;i++){   
     var element = arr[i];
@@ -92,7 +92,7 @@ for(var i=0;i<arr.length;i++){
         console.log('max is large',max);
        }  
 }
-
+ */
 
 
 // Find large number of an Arry
@@ -112,7 +112,7 @@ for(var i=0;i<arr.length;i++){
    
 // }
 
-function multiplyNumber(num1,num2,num3){
+/* function multiplyNumber(num1,num2,num3){
     
     let totalMultiplyNumber = num1 * num2 * num3;
     console.log(totalMultiplyNumber); 
@@ -121,5 +121,14 @@ function multiplyNumber(num1,num2,num3){
 let firstOne = 4;
 let secondOne = 5;
 let thirdOne = 3;
-let totalMultiplyNumberIs = multiplyNumber(firstOne,secondOne,thirdOne);
+let totalMultiplyNumberIs = multiplyNumber(firstOne,secondOne,thirdOne); */
 
+let shoppingCart ={
+    
+    latopPrice:112000,
+    phonePrice:22000,
+    headPhonePrice:15000
+}
+
+shoppingCart.headPhonePrice=2000;
+console.log(shoppingCart);
