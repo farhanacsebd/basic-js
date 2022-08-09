@@ -111,3 +111,15 @@ for(var i=0;i<arr.length;i++){
   
    
 // }
+
+function multiplyNumber(num1,num2,num3){
+    
+    let totalMultiplyNumber = num1 * num2 * num3;
+    console.log(totalMultiplyNumber); 
+}
+
+let firstOne = 4;
+let secondOne = 5;
+let thirdOne = 3;
+let totalMultiplyNumberIs = multiplyNumber(firstOne,secondOne,thirdOne);
+
