@@ -125,6 +125,9 @@ console.log(parseFloat(totalPriceIs(toFixed(2))));
 
 ## Array
 
+###Simple Array List
+#### Array is a one kind of list.The list is counted as 0,1,2,3.......
+
 ```javascript
 
 let arr =[22,33,55,234,74,78,99,13,18,67,9];
