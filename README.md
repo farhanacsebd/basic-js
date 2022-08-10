@@ -156,6 +156,9 @@ console.log(arrayIndex);
 
 ```
 
+
+###Push or Pop
+
 ```javascript
 
 arr.push(21);
@@ -166,12 +169,16 @@ console.log(arr);
 
 arr.pop();
 
+
+```
+
+### Shift or Unshift
+
+```javascript
+
 arr.shift();
 
 arr.unshift(45);
 
 console.log(arr);
-
-
-
 ```
