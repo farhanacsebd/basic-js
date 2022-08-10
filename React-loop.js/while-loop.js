@@ -6,12 +6,12 @@
 // }
 
 
-// var number=1;
+var number=1;
 
-// while(number<=10){
-//     console.log(number);
-//     number++;
-// }
+while(number<=10){
+    console.log(number);
+    number++;
+}
 
 
 var num2=1;

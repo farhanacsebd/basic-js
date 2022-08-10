@@ -248,6 +248,11 @@ else{
 ## For & While Loop
 ### For Loop 
 ```javascript
+
+for(var i = 0; i < 7; i++){
+    console.log(i);
+}
+
 // even number
 
 for(var i=0 ; i<100; i+=6){
@@ -263,6 +268,26 @@ console.log(a);
 ```
 ### While Loop 
 ```javascript
+// odd numbers
+
+var num1 = 1;
+
+while(num1<20){
+    console.log(num1);
+    num1=num1 + 2;
+}
+
+// even number
+
+
+var num1=2;
+
+while(num1<=20){
+    console.log(num1);
+    num1=num1+2;
+}
+
+
 // odd numbers
 
 var num1 = 1;
