@@ -17,6 +17,33 @@ console.log(typeof theNumber);
 
 ```
 
+
+### Mathmatical Operation in JS:
+
+
+`Mathmatical operator is - +,-,*,/,%`
+```javascript
+
+const first = 10;
+const second = 5;
+const totalsum = first + second;
+console.log(totalsum);
+
+const totalMinus = first - second;
+console.log(totalMinus);
+
+const totalMultiply = first * second;
+console.log(totalMultiply);
+
+const totaldevide = first % second;
+console.log(totaldevide);
+
+const totalquotient = first / second;
+console.log(totalquotient);
+
+
+```
+
 ```javascript
 
 let arr =[22,33,55,234,74,78,99,13,18,67,9];

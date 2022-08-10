@@ -4,15 +4,15 @@ let second =4;
 
 let total =second / first;
 
-console.log(typeof first);
+// console.log(typeof first);
 
  total = true;
 
-console.log(typeof total);
+// console.log(typeof total);
 
 
 let nameIs = 'Farhana';
-console.log(typeof nameIs);
+// console.log(typeof nameIs);
 
 
 
@@ -27,11 +27,13 @@ let arrIndex = arr.indexOf(44);
 arr[3] = 77;
 arr.push(21);
 arr.push(90);
+// console.log(arr);
 
 // arr.pop();
 
 arr.shift();
 arr.unshift(45);
+// console.log(arr);
 
 let arrlistItem = arr.pop();
 
@@ -422,7 +424,7 @@ function fibo(number){
 
 // remove duplicate
 
-let names = ['abul','babul','sabul','dabul','jabul','gabul','abul','babul','sabul','dabul','jabul'];
+/* let names = ['abul','babul','sabul','dabul','jabul','gabul','abul','babul','sabul','dabul','jabul'];
 
 function duplicate(names){
     
@@ -440,4 +442,4 @@ function duplicate(names){
 }
 
 let uniqueNames = duplicate(names)
-console.log(uniqueNames);
+console.log(uniqueNames); */
