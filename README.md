@@ -86,7 +86,7 @@ let fullName = 'Jim' + " " + 'kim';
 console.log(fullName);
 ```
 
-#### If you take a number as a string, you need to tell the type of the number-
+#### In here.If you take a number as a string, you need to tell the type of the number-
  
 
 ```javascript
@@ -110,6 +110,19 @@ let totalEggLemonPrice = eggPrice + lemonPrice;
 console.log(parseInt(totalEggLemonPrice));
 
 ```
+
+
+#### `toFixed` is only for understanding how many places you want to take after the decimal.
+```javascript
+
+let price ="43.30";
+let prce1 ="33.11";
+
+let totalPriceIs= priceIs * price1Is;
+console.log(parseFloat(totalPriceIs(toFixed(2))));
+
+```
+
 
 ```javascript
 
