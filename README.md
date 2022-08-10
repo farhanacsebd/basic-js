@@ -268,25 +268,12 @@ console.log(a);
 ```
 ### While Loop 
 ```javascript
-// odd numbers
+var number=1;
 
-var num1 = 1;
-
-while(num1<20){
-    console.log(num1);
-    num1=num1 + 2;
+while(number<=10){
+    console.log(number);
+    number++;
 }
-
-// even number
-
-
-var num1=2;
-
-while(num1<=20){
-    console.log(num1);
-    num1=num1+2;
-}
-
 
 // odd numbers
 
