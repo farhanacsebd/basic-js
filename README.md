@@ -197,8 +197,12 @@ console.log(arrlistItem);                     //before pop value will show
 
 ```
 
+### Comparision Javascript
 
-
+#### Comarision have 6 items < , > , == , != , && , || .
+- != ,It's means not equal. console.log(5 != 6) .
+- && ,It's means 2 conditions must be fulfilled .
+- || ,It's means It's means only one conditions must be fulfilled .
 
 ```javascript
 
