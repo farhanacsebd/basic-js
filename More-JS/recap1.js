@@ -39,13 +39,19 @@ let arrIs =arr.length;
 let arrIndex = arr.indexOf(44);
 
 let arrayIndex = arr[4];
-console.log(arrayIndex);
+// console.log(arrayIndex);
+
+
 arr[3] = 77;
 arr.push(21);
 arr.push(90);
 // console.log(arr);
 
-// arr.pop();
+let lastItem = arr.pop();
+console.log(arr);
+
+
+// console.log(lastItem);
 
 arr.shift();
 arr.unshift(45);

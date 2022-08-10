@@ -168,7 +168,7 @@ arr.push(90);
 console.log(arr);
 
 arr.pop();
-
+console.log(arr);
 
 ```
 
@@ -180,5 +180,40 @@ arr.shift();
 
 arr.unshift(45);
 
-console.log(arr);
+console.log(arr); 
+```
+
+#### If you want to remove an item from the list and see it again in the list then use `listItem`.
+
+```javascript
+
+let arrlistItem = arr.pop();
+
+console.log(arr);                        // after pop value will show
+console.log(arrlistItem);                     //before pop value will show
+
+```
+
+
+
+
+```javascript
+
+
+```
+```javascript
+
+
+```
+```javascript
+
+
+```
+```javascript
+
+
+```
+```javascript
+
+
 ```
