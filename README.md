@@ -86,7 +86,7 @@ let fullName = 'Jim' + " " + 'kim';
 console.log(fullName);
 ```
 
-#### In here.If you take a number as a string, you need to tell the type of the number-
+#### In here,if you take a number as a string, you need to tell the type of the number-
  
 
 ```javascript
@@ -123,6 +123,7 @@ console.log(parseFloat(totalPriceIs(toFixed(2))));
 
 ```
 
+### Array
 
 ```javascript
 
