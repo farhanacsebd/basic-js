@@ -132,11 +132,31 @@ console.log(parseFloat(totalPriceIs(toFixed(2))));
 
 let arr =[22,33,55,234,74,78,99,13,18,67,9];
 
+
+// To find the length of the list using length 
+
 let arrIs =arr.length;
+console.log(arr);
+
+// To find the position using indexOf
 
 let arrIndex = arr.indexOf(44);
+console.log(arrIndex);
+
+
+// If want to keep the new value of the list
 
 arr[3] = 77;
+console.log(arr);
+
+// If want to know the value position 
+
+let arrayIndex = arr[4];
+console.log(arrayIndex);
+
+```
+
+```javascript
 
 arr.push(21);
 
@@ -151,12 +171,6 @@ arr.shift();
 arr.unshift(45);
 
 console.log(arr);
-
-
-```
-
-```javascript
-
 
 
 

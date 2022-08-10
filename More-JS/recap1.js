@@ -24,13 +24,13 @@ let prce1 ="33.11";
 let priceIs =parseFloat(price);
 let price1Is =parseFloat(prce1);
 let totalPriceIs= priceIs + price1Is;
-console.log(totalPriceIs);
+// console.log(totalPriceIs);
 
 
 let eggPrice ='20';
 let lemonPrice = '10';
 let totalEggLemonPrice = eggPrice + lemonPrice;
-console.log(parseInt(totalEggLemonPrice));
+// console.log(parseInt(totalEggLemonPrice));
 
 let arr =[22,33,55,234,74,78,99,13,18,67,9];
 
@@ -38,6 +38,8 @@ let arrIs =arr.length;
 
 let arrIndex = arr.indexOf(44);
 
+let arrayIndex = arr[4];
+console.log(arrayIndex);
 arr[3] = 77;
 arr.push(21);
 arr.push(90);
