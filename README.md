@@ -123,7 +123,7 @@ console.log(parseFloat(totalPriceIs(toFixed(2))));
 
 ```
 
-### Array
+## Array
 
 ```javascript
 
