@@ -18,10 +18,10 @@ console.log(typeof theNumber);
 ```
 
 
-### Mathmatical Operation in JS:
+### Mathmatical Operation in JS :
 
 
-`Mathmatical operator is - +,-,*,/,%`
+#### Mathmatical operator is - +,-,*,/,%
 ```javascript
 
 const first = 10;
@@ -44,6 +44,36 @@ console.log(totalquotient);
 
 ```
 
+### Short Hand mathmatical operation is :
+#### if variable values need to change then the shorthand is-  
+
+```javascript
+const first = 10;
+const second = 5;
+
+
+first = first + 20;
+
+// otherwise
+
+first += 20;
+
+// other
+
+first -= 5;
+
+```
+#### If need to added values one by one
+
+```javascript
+
+first++ ;
+
+// or
+
+first-- ;
+
+```
 ```javascript
 
 let arr =[22,33,55,234,74,78,99,13,18,67,9];
