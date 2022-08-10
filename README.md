@@ -204,7 +204,22 @@ console.log(arrlistItem);                     //before pop value will show
 - && ,It's means 2 conditions must be fulfilled .
 - || ,It's means It's means only one conditions must be fulfilled .
 
+
+#### Make conditional decision , if - else , comparision -
+
 ```javascript
+var myJob =true;
+var mybudget=432000;
+var myflat=true;
+var myHouse=false;
+
+if((myJob == true && myflat == false) || mybudget > 500000){
+    console.log("they give him");
+}
+
+else {
+    console.log("they will kill you");
+}
 
 
 ```
