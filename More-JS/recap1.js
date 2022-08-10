@@ -14,9 +14,23 @@ let total =second / first;
 let nameIs = 'Farhana';
 // console.log(typeof nameIs);
 
+let firstName = 'Jim';
+let secondName = 'kim';
+let fullName = 'Jim' + " " + 'kim';
+// console.log(fullName);
+
+let price ="43.30";
+let prce1 ="33.11";
+let priceIs =parseFloat(price);
+let price1Is =parseFloat(prce1);
+let totalPriceIs= priceIs + price1Is;
+console.log(totalPriceIs);
 
 
-
+let eggPrice ='20';
+let lemonPrice = '10';
+let totalEggLemonPrice = eggPrice + lemonPrice;
+console.log(parseInt(totalEggLemonPrice));
 
 let arr =[22,33,55,234,74,78,99,13,18,67,9];
 

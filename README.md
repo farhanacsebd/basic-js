@@ -5,10 +5,10 @@
 #### Check the value using typeof :
 ```javascript
 
-let specialName = 'taSMI';
+const specialName = 'taSMI';
 console.log(typeof specialName);
 
-let specialNumber = 431;
+const specialNumber = 431;
 console.log(typeof specialNumber);
 
 
@@ -45,11 +45,13 @@ console.log(totalquotient);
 ```
 
 ### Short Hand mathmatical operation is :
+
+
 #### if variable values need to change then the shorthand is-  
 
 ```javascript
-const first = 10;
-const second = 5;
+let first = 10;
+let second = 5;
 
 
 first = first + 20;
@@ -63,7 +65,7 @@ first += 20;
 first -= 5;
 
 ```
-#### If need to added values one by one
+#### If need to added values one by one then -
 
 ```javascript
 
@@ -74,6 +76,41 @@ first++ ;
 first-- ;
 
 ```
+
+### Concatenation of strings with strings :
+
+```javascript
+let firstName = 'Jim';
+let secondName = 'kim';
+let fullName = 'Jim' + " " + 'kim';
+console.log(fullName);
+```
+
+#### If you take a number as a string, you need to tell the type of the number-
+ 
+
+```javascript
+
+let price ="43.30";
+let prce1 ="33.11";
+let priceIs =parseFloat(price);
+let price1Is =parseFloat(prce1);
+
+let totalPriceIs= priceIs + price1Is;
+
+console.log(totalPriceIs);
+
+
+// parseInt is-
+
+
+let eggPrice ='20';
+let lemonPrice = '10';
+let totalEggLemonPrice = eggPrice + lemonPrice;
+console.log(parseInt(totalEggLemonPrice));
+
+```
+
 ```javascript
 
 let arr =[22,33,55,234,74,78,99,13,18,67,9];
