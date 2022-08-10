@@ -47,7 +47,7 @@ console.log(totalquotient);
 ### Short Hand mathmatical operation is :
 
 
-#### if variable values need to change then the shorthand is-  
+- if variable values need to change then the shorthand is-  
 
 ```javascript
 let first = 10;
@@ -65,7 +65,10 @@ first += 20;
 first -= 5;
 
 ```
-#### If need to added values one by one then -
+
+
+
+- If need to added values one by one then -
 
 ```javascript
 
@@ -86,7 +89,7 @@ let fullName = 'Jim' + " " + 'kim';
 console.log(fullName);
 ```
 
-#### In here,if you take a number as a string, you need to tell the type of the number-
+- In here,if you take a number as a string, you need to tell the type of the number-
  
 
 ```javascript
@@ -112,7 +115,7 @@ console.log(parseInt(totalEggLemonPrice));
 ```
 
 
-#### `toFixed` is only for understanding how many places you want to take after the decimal.
+- `toFixed` is only for understanding how many places you want to take after the decimal.
 ```javascript
 
 let price ="43.30";
