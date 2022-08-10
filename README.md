@@ -245,6 +245,48 @@ else{
 }
 
 ```
+## For & While Loop
+### For Loop 
+```javascript
+// even number
+
+for(var i=0 ; i<100; i+=6){
+    console.log(i);
+}
+
+
+// odd number
+for (var a = 1; a<100; a+=4){
+console.log(a);
+}
+
+```
+### While Loop 
+```javascript
+// odd numbers
+
+var num1 = 1;
+
+while(num1<20){
+    console.log(num1);
+    num1=num1 + 2;
+}
+
+// even number
+
+
+var num1=2;
+
+while(num1<=20){
+    console.log(num1);
+    num1=num1+2;
+}
+
+```
+```javascript
+
+
+```
 ```javascript
 
 
@@ -255,5 +297,23 @@ else{
 ```
 ```javascript
 
+
+```
+```javascript
+
+
+```
+## Found LeapYear :
+```javascript
+function leapYear(year){
+    if((year%4 == 0 && year%100 !=0)||year%400 ==0){
+        return true;
+    }
+    return false
+}
+
+const yearNumberadded=2020;
+const thisYear = leapYear(yearNumberadded);
+console.log("this is the year",thisYear);
 
 ```
