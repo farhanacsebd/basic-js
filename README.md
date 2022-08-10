@@ -197,7 +197,7 @@ console.log(arrlistItem);                     //before pop value will show
 
 ```
 
-### Comparision Javascript
+## Comparision Javascript
 
 #### Comarision have 6 items < , > , == , != , && , || .
 - != ,It's means not equal. console.log(5 != 6) .
@@ -225,7 +225,7 @@ else {
 ```
 
 ### Nasted Condition :
-### It means place another else if inside the else if .
+#### It means place another else if inside the else if .
 ```javascript
 var mybudget = 1000;
 var bun=10;
