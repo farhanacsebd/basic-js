@@ -183,7 +183,7 @@ arr.unshift(45);
 console.log(arr); 
 ```
 
-#### If you want to remove an item from the list and see it again in the list then use `listItem`.
+- If you want to remove an item from the list and see it again in the list then use `listItem`.
 
 ```javascript
 
