@@ -157,7 +157,7 @@ console.log(arrayIndex);
 ```
 
 
-###Push or Pop
+### Push or Pop
 
 ```javascript
 
