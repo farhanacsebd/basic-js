@@ -48,7 +48,7 @@ arr.push(90);
 // console.log(arr);
 
 let lastItem = arr.pop();
-console.log(arr);
+// console.log(arr);
 
 
 // console.log(lastItem);
@@ -95,7 +95,7 @@ let arrlistItem = arr.pop();
 
 function miletokilomer(mile){
     
-    let km=mile*1000;
+    let km=mile*1.6093;
     return km;
 
 }
@@ -142,20 +142,30 @@ function inchtofeet(inches){
 // for loop
 
 
-// let number=[122,64,77,88,95,32,08,66,79,82,38,21];
+let number=[22,64,102,77,88,95,32,101,08,66,79,82,38,21];
 
-// for(let i=0;i<number.length;i++){
-//    let element=number[i];
-//     // console.log(element);
+/* for(let i=0;i<number.length;i++){
+   let element=number[i];
+    // console.log(element);
 
-//     if(number > 90){
-//         break;
-//     }
-//     // console.log(element);
-// }
+    if(element > 100){
+        break;
+    }
+    console.log(element);
+}
+ */
 
 
-
+/* for(let i=0;i<number.length;i++){
+    let element=number[i];
+     // console.log(element);
+ 
+     if(element > 100){
+         continue;
+     }
+     console.log(element);
+ }
+ */
 
 // EVEN OR ODD NUMBERS
 
