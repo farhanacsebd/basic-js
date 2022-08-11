@@ -488,7 +488,7 @@ console.log(max,min);
 // console.log(min);
 ```
 ### min max using function -
-#### max is- 
+- max is- 
 ```javascript
 function largestNumber(number){
     let max = number[0];
@@ -508,7 +508,7 @@ console.log(getLargestNumber);
 
 ```
 
-#### min is- 
+- min is- 
 
 ```javascript
 function smallestNumber(number){
@@ -547,3 +547,12 @@ const thisYear = leapYear(yearNumberadded);
 console.log("this is the year",thisYear);
 
 ```
+
+## Factorial Number
+
+` 1!=1!
+  2!=2*1!
+  3!=3*2*1!
+  4!=4*3*2*1!
+  5!=5*4*3*2*1!
+`
