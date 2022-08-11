@@ -160,7 +160,7 @@ console.log(arrayIndex);
 ```
 
 
-### Push or Pop
+### Push or Pop:
 
 ```javascript
 
@@ -175,7 +175,7 @@ console.log(arr);
 
 ```
 
-### Shift or Unshift
+### Shift or Unshift:
 
 ```javascript
 
@@ -245,8 +245,41 @@ else{
 }
 
 ```
+
+### Switch Case:
+```javascript
+
+var fruts ='Yellow';
+
+switch(fruts){
+    case 'Orange':
+        console.log('orange are 50kg');
+
+        break;
+
+    case 'Red':
+        console.log('Apple are 80kg');
+        
+        break;
+    
+    case 'Pink':
+        console.log('Dragon are 400kg');
+
+        break;
+
+    case 'Yollow':
+        console.log('Lemon are 29kh');
+
+    default:
+        console.log('this is another fruts');    
+    }
+
+
+```
+
+
 ## For & While Loop
-### For Loop 
+### For Loop :
 ```javascript
 
 for(var i = 0; i < 7; i++){
@@ -266,7 +299,7 @@ console.log(a);
 }
 
 ```
-### While Loop 
+### While Loop :
 ```javascript
 var number=1;
 
@@ -291,24 +324,138 @@ var num1=2;
 
 while(num1<=20){
     console.log(num1);
-    num1=num1+2;
+    num1 += 4;
 }
 
 ```
+#### while for loop break and continue
+- break 
 ```javascript
+let i = 1;
+while(i<10){
+    console.log(i);
+    if(i==5){
+        break;
+    }
+    i++;
+}
+
+// another
+
+
+
+
+
+let number=[22,64,77,88,95,32,101,08,66,79,82,38,21];
+
+for(let i=0;i<number.length;i++){
+   let element=number[i];
+    // console.log(element);
+
+    if(element > 100){
+        break;
+    }
+    console.log(element);
+}
+
+```
+- continue 
+
+```javascript
+for(let i=0;i<number.length;i++){
+    let element=number[i];
+     // console.log(element);
+ 
+     if(element > 100){
+         continue;
+     }
+     console.log(element);
+ }
+
+```
+## Function
+### even odd using function:
+- number % 2 != 0 ; odd
+- number % 2 == 0 ; even
+- number % 2 != 1 ; even
+- number % 2 == 1 ; odd
+
+
+```javascript
+// EVEN OR ODD NUMBERS
+
+function isEven(number){
+    if(number % 2 == 0){
+        return true;
+    }
+    else{
+        return false;
+}
+    }
+
+let numbers=120;
+console.log(isEven(numbers));
+
+
+
+
+function isOdd(numberIs){
+    if(numberIs % 2 ==1){
+     return true;    
+    }
+    else{
+        return false;
+    }
+}
+ let theOddNumber = 1221;
+ console.log(isOdd(theOddNumber));
+
+
+
+
+function myNumber(thenumber){
+    if(thenumber % 2 != 0){
+     return true;    
+    }
+    else{
+        return false;
+    }
+}
+ let theNumberIs = 1221;
+ console.log(myNumber(theNumberIs));
 
 
 ```
+
+### Unit convert using function:
+
 ```javascript
+// miles to kilometer
 
 
-```
-```javascript
+function miletokilomer(mile){
+    
+    let km=mile*1.6093;
+    return km;
+
+}
+
+let mile =10;
+console.log(miletokilomer(mile));
 
 
-```
-```javascript
 
+
+// inch to feet
+
+function inchtofeet(inches){
+    let feet =inches / 12;
+    return feet;
+
+}
+
+    let inchesIs = 140;
+    console.log(inchtofeet(inchesIs));
 
 ```
 ```javascript
