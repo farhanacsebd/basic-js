@@ -525,14 +525,8 @@ function smallestNumber(number){
 let getSmallestNumber = smallestNumber([11,22,55,74,75,99,101,35,89,33]);
 console.log(getSmallestNumber);
 ```
-```javascript
 
 
-```
-```javascript
-
-
-```
 ## Found LeapYear :
 ```javascript
 function leapYear(year){
@@ -556,5 +550,119 @@ console.log("this is the year",thisYear);
   4!=4*3*2*1!
   5!=5*4*3*2*1!
 `
-`n! = n*(n-1)`
+- n! = n*(n-1)
 - defoltvalue = 0;
+#### Factorial number for loop
+```javascript
+let factorial =1;
+for(let i=1;i<7;i++){
+    factorial = factorial * i;
+}
+    console.log(factorial);
+
+```
+#### Factorial number while loop
+```javascript
+let fact =1;
+let i=1;
+while(i<7){
+    fact = fact * i;
+    i++;
+}
+    console.log(fact);
+
+
+```
+#### Factorial number function for loop 
+```javascript
+function factorial(numberisThe){
+    let fact =1;
+for(let i=1;i<numberisThe;i++){
+    fact = fact * i;
+}
+   return fact;
+}
+
+let getfactorial=8;
+console.log(factorial(getfactorial));
+```
+
+#### Factorial number function while loop 
+```javascript
+function getTheFactorial(numberBig){
+    
+    factorial = 1;
+
+    let i=1;
+
+    while(i<numberBig){
+
+        factorial = factorial * i;
+       
+        i++;
+    }
+    return factorial;
+}
+
+
+    let myFactorial=getTheFactorial(10);
+    console.log(myFactorial);
+
+```
+### factorial decrementing loop:
+```javascript
+
+
+function theFactorial(myNumber){
+    let factIs = 1;
+    for(let i=myNumber; i>=1; i--){
+
+        factIs = factIs * i;
+
+    }
+    return factIs;
+}
+
+
+    let getFact = theFactorial(8);
+    console.log(getFact);
+
+
+function factorialIs(theNumber){
+    
+   let theFact = 1 ;
+
+   let i = theNumber;
+
+   while(i>=1){
+
+    theFact = theFact * i;
+
+    i--;
+
+   }
+   return theFact;   
+}
+
+    let theFactIs = factorialIs(8);
+    console.log(theFactIs);
+
+
+
+```
+```javascript
+
+
+```
+```javascript
+
+
+```
+```javascript
+
+
+```
+```javascript
+
+
+```
