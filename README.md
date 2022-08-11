@@ -556,3 +556,5 @@ console.log("this is the year",thisYear);
   4!=4*3*2*1!
   5!=5*4*3*2*1!
 `
+`n! = n*(n-1)`
+- defoltvalue = 0;
