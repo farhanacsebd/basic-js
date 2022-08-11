@@ -552,7 +552,7 @@ console.log("this is the year",thisYear);
 `
 - n! = n*(n-1)
 - defoltvalue = 0;
-#### Factorial number for loop
+#### Factorial number for loop -
 ```javascript
 let factorial =1;
 for(let i=1;i<7;i++){
@@ -561,7 +561,7 @@ for(let i=1;i<7;i++){
     console.log(factorial);
 
 ```
-#### Factorial number while loop
+#### Factorial number while loop -
 ```javascript
 let fact =1;
 let i=1;
@@ -573,7 +573,7 @@ while(i<7){
 
 
 ```
-#### Factorial number function for loop 
+#### Factorial number function for loop -
 ```javascript
 function factorial(numberisThe){
     let fact =1;
@@ -587,7 +587,7 @@ let getfactorial=8;
 console.log(factorial(getfactorial));
 ```
 
-#### Factorial number function while loop 
+#### Factorial number function while loop -
 ```javascript
 function getTheFactorial(numberBig){
     
@@ -611,8 +611,6 @@ function getTheFactorial(numberBig){
 ```
 ### factorial decrementing loop:
 ```javascript
-
-
 function theFactorial(myNumber){
     let factIs = 1;
     for(let i=myNumber; i>=1; i--){
@@ -646,13 +644,20 @@ function factorialIs(theNumber){
 
     let theFactIs = factorialIs(8);
     console.log(theFactIs);
-
-
-
 ```
+### Fibonacci Series:
+`0,1,1,2,3,5,8,13,21,34,55.......`
 ```javascript
+function fibo(number){
+    let fibonacchi =[0,1];
+    for(let i =2;i<number;i++){
+        fibonacchi[i] = fibonacchi[i-1] + fibonacchi[i-2];
+    }
+    return fibonacchi;
+}
 
-
+ let fiboIs = fibo(10);
+ console.log(fiboIs);
 ```
 ```javascript
 
