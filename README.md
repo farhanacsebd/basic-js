@@ -458,6 +458,77 @@ function inchtofeet(inches){
     console.log(inchtofeet(inchesIs));
 
 ```
+### sum array function:
+```javascript
+let numberIs=[11,22,55,74,75,99,101,35,89,33]
+
+
+function sumNumber(number){
+    let sum = 0;
+    for(let i = 0; i<number.length; i++){
+       let element = number[i];
+        sum =sum + element;
+    }
+    return sum;
+}
+
+let getSumNumber =sumNumber(numberIs);
+console.log(getSumNumber);
+
+```
+## min max value:
+
+```javascript
+const a =345;
+const b =243;
+const c =660;
+const max = Math.max(a,b,c);
+const min = Math.min(a,b,c);
+console.log(max,min);
+// console.log(min);
+```
+### min max using function -
+#### max is- 
+```javascript
+function largestNumber(number){
+    let max = number[0];
+    for(let i=0;i<number.length;i++){
+        element = number[i];
+        if(element > max){
+            max = element;
+        }
+       
+    }
+    return max;
+}
+
+
+let getLargestNumber = largestNumber([11,22,55,74,75,99,101,35,89,33]);
+console.log(getLargestNumber);
+
+```
+
+#### min is- 
+
+```javascript
+function smallestNumber(number){
+    let min = number[0];
+    for(let i=0;i<number.length;i++){
+        let elementIs = number[i];
+        if(elementIs<min){
+            min=elementIs;
+        }
+    }
+    return min;
+}
+
+let getSmallestNumber = smallestNumber([11,22,55,74,75,99,101,35,89,33]);
+console.log(getSmallestNumber);
+```
+```javascript
+
+
+```
 ```javascript
 
 
