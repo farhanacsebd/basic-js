@@ -677,7 +677,18 @@ console.log(first,second);
 [first,second]=[second,first];
 console.log(first,second);
 ```
+
+
+
+
 ```javascript
+
+
+
+
+
+
+
 
 
 ```
