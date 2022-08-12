@@ -672,6 +672,10 @@ first=second;
 second=temp;
 console.log(first,second);
 ```
+
+
+
+
 ### Destructuring
 ```javascript
 [first,second]=[second,first];
