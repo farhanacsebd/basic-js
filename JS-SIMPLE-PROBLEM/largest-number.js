@@ -40,12 +40,12 @@ function biggerNumber(numbers){
     let largest=number[0];
     while( i<numbers.length ){
 
-        // element = numbers[i];
-        // {
-        //     if(element>largest){
-        //         largest = element;
-        //     }
-        // }
+        element = numbers[i];
+        
+            if(element>largest){
+                largest = element;
+            }
+        
         i++;
     }
     return numbers;
