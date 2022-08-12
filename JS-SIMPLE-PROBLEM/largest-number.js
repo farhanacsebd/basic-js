@@ -37,7 +37,7 @@
 
 function biggerNumber(numbers){
     let i = 0;
-    let largest=number[0];
+    let largest=numbers[0];
     while( i<numbers.length ){
 
         element = numbers[i];
@@ -48,8 +48,8 @@ function biggerNumber(numbers){
         
         i++;
     }
-    return numbers;
+    return largest;
 }
 
 
-console.log(biggerNumber[32,23,54,76,90,04,17,77]);
+console.log(biggerNumber([32,23,54,76,90,04,17,77]));
