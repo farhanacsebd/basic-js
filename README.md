@@ -704,20 +704,27 @@ var herNumber =-7;
 var valuIs=Math.abs(herNumber);
 console.log(valuIs);
 ```
-#### Ceiling
+#### Ceiling:
 - Whatever number is after the point will take the top number.
 ```javascript
 var number = 21.44;
 var theNumber=Math.ceil(number);
 console.log(theNumber);
 ```
+#### floor:
+- 
+It will take the following numbers.
 ```javascript
-
-
+var thisnumber = 3.32;
+var valuIs = Math.floor(thisnumber);
+console.log(valuIs);
 ```
+####  round:
+- It returns an integer value. Gives higher or lower value depending on the point.
 ```javascript
-
-
+var num = 4.5;
+var numof=Math.round(num);
+console.log(numof);
 ```
 ```javascript
 
