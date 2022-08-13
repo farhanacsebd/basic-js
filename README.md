@@ -692,7 +692,7 @@ console.log(first,second);
 ```
 
 ## Math or Random Number:
-#### Absulate: 
+#### absulate: 
 - In this case, both plus and minus will be positive.
 ```javascript
 var myNumber =6;
@@ -704,7 +704,7 @@ var herNumber =-7;
 var valuIs=Math.abs(herNumber);
 console.log(valuIs);
 ```
-#### Ceiling:
+#### ceiling:
 - Whatever number is after the point will take the top number.
 ```javascript
 var number = 21.44;
