@@ -645,7 +645,7 @@ function factorialIs(theNumber){
     let theFactIs = factorialIs(8);
     console.log(theFactIs);
 ```
-### Factorial Recursive 
+### Factorial Recursive: 
 
 ```javascript
 function factorial(n){
@@ -689,6 +689,39 @@ console.log(first,second);
 ```javascript
 [first,second]=[second,first];
 console.log(first,second);
+```
+
+## Math or Random Number:
+#### Absulate: 
+- In this case, both plus and minus will be positive.
+```javascript
+var myNumber =6;
+var output = Math.abs(myNumber);
+console.log(output);
+
+var herNumber =-7;
+
+var valuIs=Math.abs(herNumber);
+console.log(valuIs);
+```
+#### Ceiling
+- Whatever number is after the point will take the top number.
+```javascript
+var number = 21.44;
+var theNumber=Math.ceil(number);
+console.log(theNumber);
+```
+```javascript
+
+
+```
+```javascript
+
+
+```
+```javascript
+
+
 ```
 ```javascript
 

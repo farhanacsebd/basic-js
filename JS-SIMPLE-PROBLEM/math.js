@@ -1,11 +1,11 @@
-// var myNumber =6;
-// var output = Math.abs(myNumber);
-// console.log(output);
+var myNumber =6;
+var output = Math.abs(myNumber);
+console.log(output);
 
-// var herNumber =-7;
+var herNumber =-7;
 
-// var valuIs=Math.abs(herNumber);
-// console.log(valuIs);
+var valuIs=Math.abs(herNumber);
+console.log(valuIs);
 
 
 
