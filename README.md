@@ -761,6 +761,66 @@ console.log(computer.price);
 
 computer["price"]=47000;
 console.log(computer.price);
+```
+# Module 21 Is 
+### 2. Remove duplicate:
+```javascript
+
+
+```
+### 3.String Reverce
+```javascript
+let greetings='How are you?';
+let reverse ='';
+
+for(element of greetings){
+    // console.log(element);
+    reverse = element + reverse ;
+    console.log(reverse);
+}
+
+```
+### 6. Write foo,bar,foobar
+```javascript
+for(let i=1; i<=50 ; i++){
+    
+    if((i % 3 == 0) && i % 5 == 0){
+        console.log('foobar');
+    }
+    else if(i % 3 == 0){
+        console.log('foo');
+    }
+    else if(i % 5 == 0){
+        console.log('bar');
+    }
+    else{
+        console.log(i);
+    }
+}
+
+```
+### 7.array of object:
+```javascript
+
+
+``` 
+### 8.totalquantity with cost.
+```javascript
+let products =[
+    {name:"laptop",price:43000, quantity : 1},
+    {name:"Sungless",price:500, quantity : 6},
+    {name:"shoe",price:2000, quantity : 3},
+    {name:"watch",price:4000, quantity : 2},
+    {name:"dress",price:1200, quantity : 4}
+]
+
+let totalprice=0;
+
+for(let product of products){
+    let productTotal = product.price * product . quantity;
+    totalprice = totalprice+ productTotal;
+}
+    console.log(totalprice);
 
 ```
 ```javascript

@@ -1,17 +1,17 @@
-var myNumber =6;
+/* var myNumber =6;
 var output = Math.abs(myNumber);
 console.log(output);
 
 var herNumber =-7;
 
 var valuIs=Math.abs(herNumber);
-console.log(valuIs);
+console.log(valuIs); */
 
 
 
-// var number = 21.44;
-// var theNumber=Math.ceil(number);
-// console.log(theNumber);
+/* var number = 21.44;
+var theNumber=Math.ceil(number);
+console.log(theNumber); */
 
 
 // var thisnumber = 3.32;
