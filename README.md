@@ -726,15 +726,21 @@ var num = 4.5;
 var numof=Math.round(num);
 console.log(numof);
 ```
+#### random:
+- Random 0 to 1 will be rotated 10 times.
 ```javascript
-
-
+var numberof =3;
+numberofvalue=Math.random()*10;
+console.log(numberofvalue);
 ```
+## Object-
+#### In here,variable call the object or values call the object property.
 ```javascript
-
-
+let computer ={price:430000,storage :"15gb",color:"Black"processor: "Intel i6"}
+console.log(computer);
 ```
+- If want to see property value then-
 ```javascript
-
+console.log(computer.price);
 
 ```
