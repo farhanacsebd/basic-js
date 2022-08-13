@@ -508,7 +508,6 @@ console.log(getLargestNumber);
 
 ```
 
-
 - min is- 
 
 ```javascript
@@ -646,9 +645,21 @@ function factorialIs(theNumber){
     let theFactIs = factorialIs(8);
     console.log(theFactIs);
 ```
+### Factorial Recursive 
+
+```javascript
+function factorial(n){
+    if(n==1){
+        return 1;
+    }
+    return n * factorial(n-1);      // n! = n * (n-1)!
+}
+
+let myFactorial = factorial(5);
+console.log(myFactorial);
+```
+
 ### Fibonacci Series:
-
-
 `0,1,1,2,3,5,8,13,21,34,55.......`
 ```javascript
 function fibo(number){
@@ -674,27 +685,12 @@ first=second;
 second=temp;
 console.log(first,second);
 ```
-
-
-
-
 ### Destructuring
 ```javascript
 [first,second]=[second,first];
 console.log(first,second);
 ```
-
-
-
-
 ```javascript
-
-
-
-
-
-
-
 
 
 ```
