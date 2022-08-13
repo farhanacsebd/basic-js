@@ -744,3 +744,26 @@ console.log(computer);
 console.log(computer.price);
 
 ```
+- Here is different way to set the values-
+```javascript
+var property-Name ="price";
+computer[property-Name] =50000;
+console.log(computer.price);
+
+// other one
+
+
+computer.price = 45000;
+console.log(computer.price);
+
+
+// other one
+
+computer["price"]=47000;
+console.log(computer.price);
+
+```
+```javascript
+
+
+```
