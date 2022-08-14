@@ -1,9 +1,9 @@
 function fibonacci(i){
     if(i == 0){
-        return i;
+        return 0;
     }
     else if(i == 1){
-        return i;
+        return 1;
     }
     else{
         return fibonacci(i-1) + fibonacci(i-2);
