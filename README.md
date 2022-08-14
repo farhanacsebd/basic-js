@@ -727,8 +727,7 @@ var theNumber=Math.ceil(number);
 console.log(theNumber);
 ```
 #### floor:
-- 
-It will take the following numbers.
+- It will take the following numbers.
 ```javascript
 var thisnumber = 3.32;
 var valuIs = Math.floor(thisnumber);
@@ -874,7 +873,7 @@ for(let product of products){
 }
     console.log(totalprice);
 ```
-### Animals Counting
+### 9.Animals Counting
 ```javascript
 const firstRestAnimals = 10;
 const secondRestAnimals = 50;
