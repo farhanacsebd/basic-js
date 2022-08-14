@@ -1,10 +1,10 @@
 function sum(i){
     if(i==0){
-        return i;
+        return 0;
     }
     else{
         return sum(i-1) + i;
     }
 }
 
-console.log(sum(6));
+console.log(sum(5));
