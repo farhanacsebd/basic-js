@@ -15,6 +15,14 @@ for(let i = 10;i<=20;i+=2){
 let sum =0;
 for(let i = 10;i<=20;i+=2){
    sum = sum + i;
-   console.log(sum);
+//    console.log(sum);
     
+}
+
+// problem no. 4
+
+
+for(let i = 15;i<=25;i+=2){
+    console.log(i);
+   
 }
