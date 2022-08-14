@@ -10,19 +10,19 @@ function animalCount(miles){
     else if (miles <= 20){
         first10miles= 10 * firstRestAnimals;
         restMiles = miles - 10;
-        secondCountAnimel = restMiles * secondRestAnimals;
-        total20RestMilesAnimels = first10miles + secondCountAnimel;
-        return total20RestMilesAnimels;
+        secondCountAnimals = restMiles * secondRestAnimals;
+        total20RestMilesAnimals = first10miles + secondCountAnimals;
+        return total20RestMilesAnimals;
     }
     else{
         first10miles = 10 * firstRestAnimals;
         second10miles = 10 * secondRestAnimals;
         restAnimalsTotal = miles - 20;
         thirdCoundAnimals = restAnimalsTotal * restAnimals;
-        totalRestMilesAnimels = first10miles + second10miles +thirdCoundAnimals;
-        return totalRestMilesAnimels;
+        totalRestMilesAnimals = first10miles + second10miles +thirdCoundAnimals;
+        return totalRestMilesAnimals;
     }
 }
 
-const animal = animalCount(30);
+const animal = animalCount(24);
 console.log(animal);
