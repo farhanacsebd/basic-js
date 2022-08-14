@@ -1,13 +1,14 @@
 let numbers=[32,44,67,11,101,35,76,90,04,40,61];
 
-   /*  let max =80;
+    let max =numbers[0];
     for(element of numbers){
         if(element>max){
             max = element;
-            console.log(max);
+            
         }
         
-    } */
+    }
+    // console.log(max);
  
    /*  function biggerNumber(numbers){
         let i = 0;
@@ -47,7 +48,7 @@ function duplicateNames(name){
 
 
 
-function factorial(n){
+/* function factorial(n){
     if(n==1){
         return 1;
     }
@@ -55,4 +56,59 @@ function factorial(n){
 }
 
 let myFactorial = factorial(5);
-console.log(myFactorial);
+console.log(myFactorial); */
+
+
+/* let stringIs ='How are You?';
+let reverse = '';
+for(let element of stringIs){
+    // console.log(element);
+    reverse = element + reverse ;
+    
+}
+console.log(reverse); */
+
+let arrayIs=['jodu','modu','kodu','vodu','billu','sillu','killu','millu','jodu','modu','kodu','vodu','billu','sillu','killu','millu'];
+let duplicate = [];
+
+for(letter of arrayIs){
+    // console.log(letter);
+    if(duplicate.indexOf(letter)==-1){
+        duplicate.push(letter);
+        
+    }
+}
+// console.log(duplicate);
+
+
+
+const firstAnimalCount = 10;
+const secondAnimalCount = 20;
+const thirdAnimalCount = 100;
+
+function animalCount(miles){
+    if(miles <= 10){
+        const firstCountAnimals =  miles * 10;
+        return firstCountAnimals;
+    }
+    else if(miles <=20){
+        const firstCountAnimals =  firstAnimalCount * 10;
+        const secoundCounMilas = miles - 10;
+        const scoundCountAnimals = secoundCounMilas * secondAnimalCount;
+        const secoundTotalCountAmimals = firstCountAnimals + scoundCountAnimals;
+        return secoundTotalCountAmimals;
+    }
+
+    else{
+        const firstCountAnimals =  firstAnimalCount * 10;
+        const scoundCountAnimals = 10 * secondAnimalCount;
+        const thirdCountMiles = miles - 20;
+        const thirdCountAnimals = thirdCountMiles * thirdAnimalCount;
+        const totalCountAnimals = firstCountAnimals + scoundCountAnimals + thirdCountAnimals;
+        return totalCountAnimals;
+    }
+       
+}
+
+const animals = animalCount(24);
+console.log(animals);

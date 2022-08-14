@@ -490,6 +490,21 @@ console.log(max,min);
 ### min max using function -
 - max is- 
 ```javascript
+// using for loop 
+let numbers=[32,44,67,11,101,35,76,90,04,40,61];
+
+    let max =numbers[0];
+    for(element of numbers){
+        if(element>max){
+            max = element;   
+        }
+    }
+    console.log(max);
+
+
+
+// using function:
+
 function largestNumber(number){
     let max = number[0];
     for(let i=0;i<number.length;i++){
@@ -858,9 +873,35 @@ for(let product of products){
     totalprice = totalprice+ productTotal;
 }
     console.log(totalprice);
-
 ```
+### Animals Counting
 ```javascript
+const firstRestAnimals = 10;
+const secondRestAnimals = 50;
+const restAnimals = 100;
 
+function animalCount(miles){
+    if(miles<=10){
+        count = miles * firstRestAnimals;
+        return count;
+    } 
+    else if (miles <= 20){
+        first10miles= 10 * firstRestAnimals;
+        restMiles = miles - 10;
+        secondCountAnimals = restMiles * secondRestAnimals;
+        total20RestMilesAnimals = first10miles + secondCountAnimals;
+        return total20RestMilesAnimals;
+    }
+    else{
+        first10miles = 10 * firstRestAnimals;
+        second10miles = 10 * secondRestAnimals;
+        restAnimalsTotal = miles - 20;
+        thirdCoundAnimals = restAnimalsTotal * restAnimals;
+        totalRestMilesAnimals = first10miles + second10miles +thirdCoundAnimals;
+        return totalRestMilesAnimals;
+    }
+}
 
+const animal = animalCount(24);
+console.log(animal);
 ```
