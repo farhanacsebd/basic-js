@@ -906,6 +906,9 @@ console.log(animal);
 ```
 
 # Recursive
+#### Recursive have 2 rules.
+- The function calls itself twice.
+- while or for both must follow stopping condision.
 ### sum:
 ```javascript
 function sum(i){
