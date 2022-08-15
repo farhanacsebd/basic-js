@@ -1,13 +1,13 @@
 let numbers=[32,44,67,11,101,35,76,90,04,40,61];
 
-    let max =numbers[0];
+   /*  let max =numbers[0];
     for(element of numbers){
         if(element>max){
             max = element;
             
         }
         
-    }
+    } */
     // console.log(max);
  
    /*  function biggerNumber(numbers){
@@ -111,4 +111,37 @@ function animalCount(miles){
 }
 
 const animals = animalCount(24);
-console.log(animals);
+// console.log(animals);
+
+/* for(element of numbers){
+    // console.log(element);
+    if(element < 80){
+        continue;
+    }
+    console.log(element);
+} */
+
+// let max =80;
+/* for(let element of numbers){
+    // console.log(element);
+    if(element > 80){
+        max = element;
+        console.log(max);
+    }
+    
+} */
+
+
+function bestFriend(frdNames){
+   let friend=frdNames[0];
+    for(let nameIs of frdNames){
+    //  console.log(nameIs);
+    if(nameIs.length > friend.length){
+        friend = nameIs;
+    }
+    }
+   return friend;
+}
+
+let arrayName = bestFriend(['tuki','Kuttush','Piku','Putul',"piyo",'Nimki']);
+console.log(arrayName);

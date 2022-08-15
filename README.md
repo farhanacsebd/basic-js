@@ -904,3 +904,18 @@ function animalCount(miles){
 const animal = animalCount(24);
 console.log(animal);
 ```
+
+# Recursive
+### sum:
+```javascript
+function sum(i){
+    if(i==0){
+        return 0;
+    }
+    else{
+        return sum(i-1) + i;
+    }
+}
+
+console.log(sum(5));
+```
