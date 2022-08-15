@@ -919,3 +919,18 @@ function sum(i){
 
 console.log(sum(5));
 ```
+
+### factorial:
+```javascript
+function factorial(n){
+    if(n==1){
+        return 1;
+    }
+    else{
+        return n * factorial(n-1)
+    }
+}
+
+const fact = factorial(5);
+console.log(fact);
+```
