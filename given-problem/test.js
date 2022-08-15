@@ -21,8 +21,12 @@ for(let i = 10;i<=20;i+=2){
 
 // problem no. 4
 
-
+let house=[];
 for(let i = 15;i<=25;i+=2){
     console.log(i);
-   
+    if(house.indexOf(i)==-1){
+    house.push(i);
 }
+}
+console.log(house);
+console.log(house.length);
