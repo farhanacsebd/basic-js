@@ -1,4 +1,4 @@
-let specialName = 'taSMI';
+/* let specialName = 'taSMI';
 console.log(typeof specialName);
 
 
@@ -7,7 +7,7 @@ console.log(typeof specialNumber);
 
 
 const theNumber = true;
-console.log(typeof theNumber);
+console.log(typeof theNumber); */
 
 
 
@@ -209,7 +209,7 @@ function centimeterToMeter(centimeter){
 
 
 
-arrayIS=[22,44,55,47,79,-12,-33,-144,53,90,85];
+// arrayIS=[22,44,55,47,79,53,90,85];
 
 /* let max =0;
 let min =-1;
@@ -226,20 +226,24 @@ for(let i=0; i<arrayIS.length; i++){
 
 
 
+arrayIS=[22,44,55,47,79,-12,-33,-144,53,90,85];
 
-/* 
-function thePositiveNumber(arrayIS){
+function thePositiveNumber(array){
 
     let positiveValue=[];
-    let positoveIs=0;
-    for(let i=0;i<arrayIS.length;i++){
-        element  = arrayIS[i];
+    
+    for(let i=0;i<array.length;i++){
+        element  = array[i];
         
-       if(positiveValue.indexOf(element)==positoveIs){
+       if(element>0){
         positiveValue.push(element);
         
-       }
+         }
+         else{
+            break;
+         }
+         
     }
     return positiveValue;
 }
-console.log(thePositiveNumber(arrayIS)); */
+console.log(thePositiveNumber(arrayIS));
